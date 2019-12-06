@@ -287,7 +287,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 0px 10px;
 }
 
 #project_title {
@@ -300,7 +300,7 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -379,6 +379,41 @@ Full-Width Styles
   margin: 0.5rem;
 }
 
+
+.boxed-content {
+  border: 1px silver solid;
+  border-radius: 5px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+
+.content-navigation-element {
+  display: inline-block;
+  background-color: #77A6DA;
+  box-shadow: black 0rem 0rem 0.9rem 0;
+  color: #fff;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  max-width: 44%;
+  min-width: 14rem;
+}
+
+.content-navigation-element h3,
+.content-navigation-element p,
+.content-navigation-element a
+{
+  display: block;
+  color: #fff
+}
+.content-navigation-element a {
+  text-decoration: underline;
+}
+.content-navigation-element a:hover {
+  font-weight: bold;
+}
 
 /*******************************************************************************
 Small Device Styles
